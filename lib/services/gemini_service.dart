@@ -97,7 +97,7 @@ const List<ContentSuggestion> _fallbackSugestoes = [
 /// Utiliza a SDK oficial google_generative_ai
 class GeminiService {
   // ⚠️ Em produção, use variáveis de ambiente ou configuração segura
-  static const String _apiKey = 'AIzaSyDNUr3HW3iuyhQKiWM_I97DrNPkNynvjDI';
+  static const String _apiKey = 'VAZA';
   static const String _modelName = 'gemini-2.0-flash';
 
   /// Validação da API key
