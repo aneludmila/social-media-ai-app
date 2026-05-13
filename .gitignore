@@ -1,0 +1,173 @@
+# ═══════════════════════════════════════════════════════════
+# 🔒 VARIÁVEIS DE AMBIENTE E SEGREDOS
+# ═══════════════════════════════════════════════════════════
+.env
+.env.*
+.env.local
+.env.development
+.env.staging
+.env.production
+*.keystore
+*.jks
+*.key
+*.pem
+*.p12
+
+# ═══════════════════════════════════════════════════════════
+# 🔥 FIREBASE
+# ═══════════════════════════════════════════════════════════
+# Credenciais do Firebase (contêm API keys e project IDs)
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+lib/firebase_options.dart
+**/firebase_options.dart
+firebase_app_id_file.json
+
+# ═══════════════════════════════════════════════════════════
+# 🎯 FLUTTER / DART
+# ═══════════════════════════════════════════════════════════
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Geração de código
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Symbolication / Obfuscation
+app.*.symbols
+app.*.map.json
+
+# ═══════════════════════════════════════════════════════════
+# 🤖 ANDROID
+# ═══════════════════════════════════════════════════════════
+android/.gradle/
+android/.idea/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+android/key.properties
+android/**/GeneratedPluginRegistrant.java
+*.apk
+*.aab
+
+# ═══════════════════════════════════════════════════════════
+# 🍎 iOS / macOS
+# ═══════════════════════════════════════════════════════════
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Flutter/Generated.xcconfig
+**/ios/Flutter/.last_build_id
+*.ipa
+macos/Pods/
+macos/.symlinks/
+
+# ═══════════════════════════════════════════════════════════
+# 🌐 WEB
+# ═══════════════════════════════════════════════════════════
+web/.dart_tool/
+
+# ═══════════════════════════════════════════════════════════
+# 🪟 WINDOWS / DESKTOP
+# ═══════════════════════════════════════════════════════════
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+linux/flutter/generated_plugins.cmake
+
+# ═══════════════════════════════════════════════════════════
+# 🟢 NODE.JS (Serviços auxiliares)
+# ═══════════════════════════════════════════════════════════
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-error.log*
+.yarn/
+
+# ═══════════════════════════════════════════════════════════
+# 💻 IDEs — VS CODE
+# ═══════════════════════════════════════════════════════════
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ═══════════════════════════════════════════════════════════
+# 💻 IDEs — ANDROID STUDIO / IntelliJ IDEA
+# ═══════════════════════════════════════════════════════════
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# ═══════════════════════════════════════════════════════════
+# 📝 LOGS E ARQUIVOS TEMPORÁRIOS
+# ═══════════════════════════════════════════════════════════
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.build/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# Crash reports
+crash_log.*
+crashlytics-build.properties
+
+# ═══════════════════════════════════════════════════════════
+# 🖥️ SISTEMA OPERACIONAL
+# ═══════════════════════════════════════════════════════════
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# ═══════════════════════════════════════════════════════════
+# 📦 MISCELLANEOUS
+# ═══════════════════════════════════════════════════════════
+*.class
+*.pyc
+.atom/
+.swiftpm/
